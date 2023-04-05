@@ -1,0 +1,94 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f3903e;
+}
+body .wrapper {
+  height: 100vh;
+  width: 100%;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body .wrapper h2 {
+  color: #461348;
+}
+body .wrapper .mainImage {
+  width: 40rem;
+  height: 28rem;
+}
+body .wrapper .imgRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-radius: 50px;
+}
+body .wrapper .imgRow .imgContainers {
+  width: 10rem;
+  height: 6rem;
+  margin: 0.5rem;
+}
+
+@media (max-width: 548px) {
+  body {
+    background-color: #f3903e;
+  }
+  body .wrapper {
+    height: 100vh;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .wrapper h1 {
+    color: #461348;
+  }
+  body .wrapper .mainImage {
+    width: 25rem;
+    height: 20rem;
+  }
+  body .wrapper .imgRow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 2rem;
+    width: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    border-radius: 50px;
+  }
+  body .wrapper .imgRow .imgContainers {
+    width: 10rem;
+    height: 10rem;
+  }
+}/*# sourceMappingURL=index.css.map */
